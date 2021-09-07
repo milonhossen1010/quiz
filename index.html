@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div id="root">
+    <section id="startSection" class="quiz-modal">
+      <section class="quiz-modal__initial">
+        <h1 class="quiz-modal__initial-header">Quiz </h1>
+        <p class="quiz-modal__initial-paragraph">Ready to test your knowledge? </p>
+      </section>
+      <footer class="quiz-modal__footer quiz-modal__footer--bg">
+        <button id="start_btn" class="quiz-modal__btn quiz-modal__btn--enabled">Let's do it!</button>
+      </footer>
+    </section>
+
+    <!-- Question section -->
+    <section id="questionSection" style="display: none;" class="quiz-modal">
+      <div class="question">
+
+      </div>
+      <footer class="quiz-modal__footer ">
+        <div class="quiz-modal__progress-controls">
+          <p class="quiz-modal__progress-current">1 / 10</p>
+          <button id="next" disabled class="quiz-modal__btn quiz-modal__btn--disabled">Next</button>
+        </div>
+      </footer>
+    </section>
+
+    <!--- Result --->
+    <section id="result" style="display: none;" class="quiz-modal">
+      <section class="quiz-modal__score">
+        <section class="quiz-modal__results">
+          <p class="quiz-modal__results-score"> </p>
+        </section>
+        <section class="quiz-modal__score-details">
+          <p class="quiz-modal__score-header">Your Results:</p>
+          <p >Correct:<span id="correct_ans">2</span></p>
+          <p>Incorrect:<span id="incorrect_ans">8</span></p>
+        </section>
+      </section>
+      <footer class="quiz-modal__footer quiz-modal__footer--bg">
+        <button id="restart" class="quiz-modal__btn quiz-modal__btn--enabled">Play again</button>
+      </footer>
+    </section>
+
+
+  </div>
+
+  <!-- Correct ans--->
+  <audio  id="correctSound" >
+    <source src="audio/correct.mp3" type="audio/mpeg">
+  </audio>
+
+    <!-- Correct ans--->
+  <audio  id="wrongSound" >
+    <source src="audio/wrong.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+
+
+
+</body>
+
+</html>

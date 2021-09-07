@@ -1,0 +1,69 @@
+[
+  {
+    "id": "1",
+    "question": "বাংলাদেশের রাজধানীর নাম কি?",
+    "ans": "ঢাকা",
+    "options": [
+      "ঢাকা",
+      "রাজশাহী",
+      "সিলেট",
+      "কুমিল্লা"
+    ]
+  },
+  {
+    "id": "2",
+    "question": "What is the national language of Bangladesh?",
+    "ans": "Bangla",
+    "options": [
+      "Hindi",
+      "Bangla",
+      "English",
+      "Urdu"
+    ]
+  },
+  {
+    "id": "3",
+    "question": "What is the currency of Bangladesh?",
+    "ans": "Taka",
+    "options": [
+      "Euro",
+      "Dollar",
+      "Pound",
+      "Taka"
+    ]
+  },
+  {
+    "id": "4",
+    "question": "জাতীয় মাছের নাম কি?",
+    "ans": "ইলিশ",
+    "options": [
+      "ইলিশ",
+      "রুই",
+      "কাতল",
+      "বোয়াল"
+    ]
+  },
+  {
+    "id": "5",
+    "question": "What does Bangladesh's flag look like?",
+    "ans": "Green and red",
+    "options": [
+      "Red and blue",
+      "Green and white",
+      "Green and red",
+      "Red and white"
+    ]
+  }, 
+  {
+    "id": "6",
+    "question": "জাতীয় পাখির নাম?",
+    "ans": "দোয়েল",
+    "options": [
+      "ময়না",
+      "দোয়েল",
+      "কোকিল",
+      "টিয়া"
+    ]
+  }
+
+]

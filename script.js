@@ -18,23 +18,31 @@ let wrongSound = document.querySelector("#wrongSound");
 startBtn.onclick = e => {
   questionSection.style.display = "block";
   startSection.style.display = "none";
+  getQuestions();
 }
 
 //Ajax request
 let xmhttp = new XMLHttpRequest();
 xmhttp.onload = function(){
   localStorage.questions = this.response;
+ 
 }
 
 xmhttp.open("GET", "questions.json");
 xmhttp.send();
 
+
+
 //Get question
 function getQuestions(){
+
   return JSON.parse(localStorage.questions);
+
 }
+
 let all_questions = getQuestions();
 
+ 
 
 
 
@@ -66,7 +74,7 @@ function loadQuestion(index=0){
 
 
 }
-loadQuestion();
+loadQuestion(0);
 
 
 //Set info

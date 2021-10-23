@@ -212,8 +212,8 @@ function getAns(ans, index) {
 
 //Restart
 restartBtn.onclick = () => {
-  questionSection.style.display = "block";
-  result.style.display = "none";
+  // questionSection.style.display = "block";
+  // result.style.display = "none";
   item = 0;
   result_mark = 0;
   timeCountDown(10);
